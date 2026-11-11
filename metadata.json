@@ -1,0 +1,6 @@
+{
+  "name": "The Heritage — Mood & Personalized Quotes",
+  "description": "Select your mood to discover deeply personalized literary and tattoo-aesthetic quotes typeset in The Heritage Legacy, Yosarosa Cursive, and Paragone Serif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

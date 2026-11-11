@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-midnight: #08090a;
+    --color-midnight-surface: #0e1014;
+    --color-midnight-card: #13161c;
+    --color-midnight-border: #1f232b;
+    --color-white-pure: #ffffff;
+    --color-white-muted: #d1d5db;
+    --color-lime-accent: #c6f432;
+  }
+}
+
+/* Custom Font Families */
+.font-heritage {
+  font-family: 'The Heritage Legacy', 'The Heritage Legacy Fancy Logo', 'Cinzel Decorative', 'UnifrakturMaguntia', serif;
+  letter-spacing: 0.05em;
+}
+
+.font-tattoo {
+  font-family: 'Yosarosa Cursive Tattoo', 'Yosarosa', 'Pinyon Script', 'Alex Brush', cursive;
+}
+
+.font-paragone {
+  font-family: 'Paragone Fancy Aesthetic Serif', 'Paragone', 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Subtle glow utility for 10% lime accent */
+.glow-lime {
+  box-shadow: 0 0 25px -4px rgba(198, 244, 50, 0.25);
+}
+
+.glow-lime-sm {
+  box-shadow: 0 0 12px -2px rgba(198, 244, 50, 0.35);
+}
+
+.text-glow-lime {
+  text-shadow: 0 0 16px rgba(198, 244, 50, 0.3);
+}
+
+/* Custom scrollbar for mood list */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #08090a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f232b;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c6f432;
+}
