@@ -3,17 +3,17 @@
 A curated sanctuary where users select their emotional frequency and receive personalized literary quotes, cursive tattoo mottos, and custom wallpaper keepsakes.
 
 Designed with strict **60-30-10** color discipline and bespoke typographic styling:
-- **60% Midnight Black** (`#08090A`): Canvas and dark glass surfaces
-- **30% Crisp Pure White** (`#FFFFFF`): High-contrast editorial typography
-- **10% Lime Green** (`#C6F432`): Active halos, tattoo flourishes, and interactive CTAs
+60% Midnight Black** (`#08090A`): Canvas and dark glass surfaces
+30% Crisp Pure White** (`#FFFFFF`): High-contrast editorial typography
+10% Lime Green** (`#C6F432`): Active halos, tattoo flourishes, and interactive CTAs
 
 ---
 
 ## ✒️ Typographic System
 
-1. **The Heritage Legacy Fancy Logo** (`font-heritage`): Monumental branding wordmark, crest badges, and header seals (`Cinzel Decorative` / `UnifrakturMaguntia`).
-2. **Paragone Fancy Aesthetic Serif** (`font-paragone`): High-contrast editorial serif calibrated for emotional depth and literary passages (`Cormorant Garamond`).
-3. **Yosarosa Cursive Tattoo** (`font-tattoo`): Calligraphic tattoo-script motto inscriptions and signatures (`Alex Brush` / `Pinyon Script`).
+1.The Heritage Legacy Fancy Logo** (`font-heritage`): Monumental branding wordmark, crest badges, and header seals inzel Decorative / UnifrakturMaguntia.
+2.Paragone Fancy Aesthetic Serif** (`font-paragone`): High-contrast editorial serif calibrated for emotional depth and literary passages Cormorant Garamond
+3.Yosarosa Cursive Tattoo** (`font-tattoo`): Calligraphic tattoo-script motto inscriptions and signatures Alex Brush/Pinyon Script
 
 ---
 
@@ -26,41 +26,5 @@ Designed with strict **60-30-10** color discipline and bespoke typographic styli
 - **Atmospheric Soundscapes**: Procedural Web Audio soundscapes (*Midnight Rain*, *Vinyl & Hearth*, *Deep Harmonic Drone*, *Highland Wind*).
 - **Interactive Font Specimen**: Live text tester to preview custom sentences across all three typography styles simultaneously.
 
----
+╰(*°▽°*)╯Being one of those individuals who are in the process of learning web and application designing and development, I decided to experiment with vibe code and AI processes. In this project, my main objective was to explore the benefits of using the help of AI and Google APIs in cutting down the development time while having control over the output.
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (version 18 or later)
-- npm or yarn
-
-### Installation
-
-1. Clone your repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/the-heritage-mood-quotes.git
-   cd the-heritage-mood-quotes
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. (Optional) Set up your Gemini API Key in `.env`:
-   ```env
-   GEMINI_API_KEY="your-gemini-api-key-here"
-   ```
-   *(Note: The app contains a robust local philosophical oracle fallback and works completely offline without an API key as well!)*
-
-4. Run the development server:
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-5. Build for production:
-   ```bash
-   npm run build
-   ```
